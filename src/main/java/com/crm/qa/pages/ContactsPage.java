@@ -9,7 +9,8 @@ import com.crm.qa.base.TestBase;
 
 public class ContactsPage extends TestBase{
 	
-	@FindBy(xpath="//*[@id=\"dashboard-toolbar\"]/div[1]")
+	//@FindBy(xpath="//*[@id=\"dashboard-toolbar\"]/div[1]")
+	@FindBy(xpath="//*[@id=\"main-nav\"]/div[3]/a/span")
 	@CacheLookup
 	WebElement contactsLabel;
 	

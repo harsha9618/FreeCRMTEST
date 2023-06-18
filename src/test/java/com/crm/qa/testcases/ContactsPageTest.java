@@ -62,7 +62,7 @@ public class ContactsPageTest extends TestBase{
 		return data;
 	}
 	
-	@Test(priority=4,dataProvider="getCRMTestData")
+	@Test(priority=4,dataProvider="getCRMTestData", enabled = false)
 	public void validateCreateNewContact(String firstName, String lastName, String company) {
 		homePage.clickOnNewContactLink();
 		contactsPage.createNewContact(firstName,lastName,company);

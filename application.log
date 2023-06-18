@@ -1,0 +1,14 @@
+2023-01-25 19:34:08,692  INFO [main] TestBase:65 - **** Launch the Browser ****
+2023-01-25 19:34:16,685  INFO [main] TestBase:73 - **** Getting URL ****
+2023-01-25 19:34:23,020  INFO [main] TestBase:65 - **** Launch the Browser ****
+2023-01-25 19:34:31,790  INFO [main] TestBase:73 - **** Getting URL ****
+2023-01-25 19:34:57,639  INFO [main] TestBase:65 - **** Launch the Browser ****
+2023-01-25 19:35:08,748  INFO [main] TestBase:73 - **** Getting URL ****
+2023-01-25 19:35:34,698  INFO [main] TestBase:65 - **** Launch the Browser ****
+2023-01-25 19:35:44,627  INFO [main] TestBase:73 - **** Getting URL ****
+2023-01-25 19:35:44,871  INFO [main] HomePageTest:41 - Assert the title
+2023-01-25 19:35:44,887  INFO [main] HomePageTest:44 - **** Successfully Verify the Home page title ****
+2023-01-25 19:35:47,265  INFO [main] TestBase:65 - **** Launch the Browser ****
+2023-01-25 19:36:01,546  INFO [main] TestBase:73 - **** Getting URL ****
+2023-01-25 19:36:03,562  INFO [main] HomePageTest:51 - **** Successfully Verify the user name test ****
+2023-01-25 19:36:05,569  INFO [main] TestBase:65 - **** Launch the Browser ****

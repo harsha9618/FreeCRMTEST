@@ -9,11 +9,14 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import org.openqa.selenium.support.events.WebDriverListener;
 
 import com.crm.qa.utilities.TestUtil;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 @SuppressWarnings("deprecation")
 public class TestBase {
@@ -46,10 +49,14 @@ public class TestBase {
 		
 		String browserName=prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "E:\\SeleniumJars\\Drivers\\chromedriver.exe");
-			driver = new ChromeDriver();
+			//System.setProperty("webdriver.chrome.driver", "E:\\SeleniumJars\\Drivers\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			driver = new ChromeDriver(options);
 		} else if(browserName.equals("FF")) {
-			System.setProperty("webdriver.chrome.driver", "E:\\SeleniumJars\\Drivers\\geckodriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "E:\\SeleniumJars\\Drivers\\geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 		

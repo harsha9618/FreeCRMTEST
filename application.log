@@ -1,6 +1,7 @@
-2023-06-19 01:52:59,902  INFO [main] TestBase:72 - **** Launch the Browser ****
-2023-06-19 01:53:07,684  INFO [main] TestBase:80 - **** Getting URL ****
-2023-06-19 01:53:16,067  INFO [main] TestBase:72 - **** Launch the Browser ****
-2023-06-19 01:53:26,037  INFO [main] TestBase:80 - **** Getting URL ****
-2023-06-19 01:53:34,971  INFO [main] TestBase:72 - **** Launch the Browser ****
-2023-06-19 01:53:44,087  INFO [main] TestBase:80 - **** Getting URL ****
+2023-07-29 22:23:16,394  INFO [main] TestBase:72 - **** Launch the Browser ****
+2023-07-29 22:23:25,953  INFO [main] TestBase:80 - **** Getting URL ****
+2023-07-29 22:23:26,850  INFO [main] HomePageTest:41 - Assert the title
+2023-07-29 22:23:26,876  INFO [main] HomePageTest:44 - **** Successfully Verify the Home page title ****
+2023-07-29 22:23:32,111  INFO [main] TestBase:72 - **** Launch the Browser ****
+2023-07-29 22:23:42,863  INFO [main] TestBase:80 - **** Getting URL ****
+2023-07-29 22:23:47,871  INFO [main] HomePageTest:51 - **** Successfully Verify the user name test ****

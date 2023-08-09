@@ -5,7 +5,6 @@
     <classes>
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
-          <include name="validateCreateNewContact"/>
           <include name="tearDown"/>
           <include name="selectSingleContactsTest"/>
           <include name="setUp"/>
